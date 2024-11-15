@@ -54,11 +54,11 @@ body {
 
 .box_meio img {
     width: 100%;
-    border: 1px solid red;
+    
 }
 
 .box_background {
-    border: 1px solid red;
+    
     position: absolute;
     right: 50px;
     top: 360px;
@@ -83,5 +83,62 @@ body {
 }
 
 
+
+/*------------------------------------------------------------------------*/
+
+
+
+.box_baixo {
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 25px;
+    
+}
+
+.box_imgDestinos img {
+    width: 100%;
+    margin-top: 20px;
+    
+    height: 230px;
+}
+
+.box_nossaFrota {
+    
+
+}
+
+.box_imgNossaFrota {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.box_imgNossaFrota img {
+    width: 100%;
+    height: auto;
+}
+
+.box_destinos {
+    
+}
+
+.box_tituloNossaFrota {
+    
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    gap: 10px;
+}
+
+.box_tituloDestinos {
+   
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    gap: 10px;
+}
 
 
